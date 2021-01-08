@@ -180,7 +180,7 @@ textarea::placeholder {
 .checkbox:checked + .checkbox-text::before {
   background-color: $accent-color;
   border: 0;
-  background-image: url(../../img/icon-check.svg);
+  background-image: url(../img/icon-check.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
