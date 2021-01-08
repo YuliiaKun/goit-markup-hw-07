@@ -1,0 +1,36 @@
+.our-work {
+  padding-bottom: 94px;
+}
+
+.our-work-img {
+  display: flex;
+}
+
+.work-img {
+  position: relative;
+}
+
+.work-img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-desc {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 370px;
+}

@@ -1,0 +1,30 @@
+.logo-web {
+  margin-right: 93px;
+  color: $accent-color;
+  font-family: $accent-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header .logo-studio {
+  color: $primary-black-color;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web.foot {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer-address .logo-studio {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
