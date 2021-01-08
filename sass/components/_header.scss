@@ -14,14 +14,14 @@ nav {
 
 .site-nav {
   display: flex;
-}
 
-.site-nav .item {
-  position: relative;
-}
+  .item {
+    position: relative;
+  }
 
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
+  .item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .nav-page {
@@ -38,6 +38,11 @@ nav {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .nav-page.current {
@@ -71,6 +76,7 @@ nav {
   line-height: 1.33;
   letter-spacing: 0.02em;
 }
+
 .nav-contact {
   display: flex;
   justify-content: center;
@@ -79,6 +85,11 @@ nav {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .site-contact .item + .item {
@@ -88,11 +99,4 @@ nav {
 .contact-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.nav-page:hover,
-.nav-page:focus,
-.nav-contact:hover,
-.nav-contact:focus {
-  color: $accent-color;
 }

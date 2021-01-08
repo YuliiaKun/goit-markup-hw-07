@@ -6,11 +6,11 @@
 .advantages {
   display: flex;
   margin: -15px;
-}
 
-.advantages .item {
-  width: 270px;
-  margin: 15px;
+  .item {
+    width: 270px;
+    margin: 15px;
+  }
 }
 
 .advantages-icons {
@@ -22,11 +22,11 @@
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: $background;
-}
 
-.advantages-icons .icon {
-  width: 70px;
-  height: 70px;
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .subtitle {

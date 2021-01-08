@@ -22,6 +22,11 @@
 
 .team-content {
   padding: 30px 10px;
+
+  & ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .team-name {
@@ -45,11 +50,6 @@
   letter-spacing: 0.03em;
 }
 
-.team-content ul {
-  display: flex;
-  justify-content: center;
-}
-
 .soc-icons:not(:last-child) {
   margin-right: 10px;
 }
@@ -67,12 +67,12 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.section-icon:hover,
-.section-icon:focus {
-  background-color: $accent-color;
-  color: $primary-white-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $primary-white-color;
+  }
 }
 
 .icon {

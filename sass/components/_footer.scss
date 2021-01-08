@@ -3,14 +3,15 @@
   padding-bottom: 60px;
 
   background-color: $bgr-primary-dark;
+
+  .container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer-address {
   margin-right: 70px;
-}
-
-.footer .container {
-  display: flex;
 }
 
 .address {
@@ -35,13 +36,14 @@
   letter-spacing: 0.03em;
 }
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-soc {
   margin-right: 93px;
+
+  & ul {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
 }
 
 .footer-soc b,
@@ -52,12 +54,6 @@
   text-transform: uppercase;
 
   color: $primary-white-color;
-}
-
-.footer-soc ul {
-  display: flex;
-  margin-bottom: 0;
-  margin-top: 20px;
 }
 
 .footer-icon {

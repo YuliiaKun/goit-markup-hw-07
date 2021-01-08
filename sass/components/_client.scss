@@ -5,6 +5,10 @@
 
 .client-logo {
   display: flex;
+
+  & li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .client-icon {
@@ -22,14 +26,10 @@
   transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client-icon:hover,
-.client-icon:focus {
-  color: $accent-color;
-  border: 1px solid $accent-color;
-}
-
-.client-logo li:not(:last-child) {
-  margin-right: 30px;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border: 1px solid $accent-color;
+  }
 }
